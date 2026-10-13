@@ -1,0 +1,138 @@
+<!-- Ślad cyfrowy i OSINT
+     Polska wersja lekcji – wygenerowana z materiałów zespołu. Odtąd edytuj ten plik bezpośrednio. -->
+
+<section class="tsec" id="intro" data-nav="Wstęp" aria-labelledby="intro-h">
+  <p class="eyebrow">01 · Wstęp</p>
+  <h2 class="h-m" id="intro-h"><span class="line">Wszędzie zostawiasz</span><span class="line accent">ślady.</span></h2>
+  <div class="prose">
+    <p class="big-p">Wszystko, co publikujesz, lajkujesz, udostępniasz lub wyszukujesz, zostawia w sieci ślad. Każdy, kto ma trochę cierpliwości i darmowe narzędzia, może zebrać te ślady i ułożyć z nich obraz twojego życia. Ta strona pokazuje, jak to działa i jak odzyskać kontrolę.</p>
+  </div>
+</section>
+
+<section class="tsec" id="story" data-nav="Historia Laury" aria-labelledby="story-h">
+  <p class="eyebrow">02 · Historia</p>
+  <h2 class="h-m" id="story-h"><span class="line">Jak obca osoba znalazła</span><span class="line accent">Laurę w 20 minut.</span></h2>
+  <div class="split">
+    <div class="prose">
+      <p class="big-p">Laura ma 18 lat. Jej Instagram jest publiczny, ale ona uważa, że nigdy nie udostępnia niczego prywatnego.</p>
+      <p>Pewnego wieczoru publikuje selfie z nowym szczeniakiem. W tle widać logo jej szkoły na bluzie. W opisie profilu ma „Ryga | rocznik 2026 | 🎸”. W zeszłym tygodniu wrzuciła relację z ulubionej kawiarni z oznaczoną lokalizacją i podpisem „to samo miejsce w każdy piątek ☕”.</p>
+      <p>Obcy mężczyzna przegląda jej profil. Z bluzy dowiaduje się, do jakiej szkoły chodzi. Dzięki oznaczeniu kawiarni wie, gdzie Laura bywa w każdy piątek. Na zdjęciu z urodzin widać za nią numer domu. Jej stare konto na TikToku, z tą samą nazwą użytkownika, pokazuje w komentarzach jej imię i nazwisko oraz imię jej mamy. Szybkie wyszukanie tej nazwy użytkownika prowadzi do trzyletniego wpisu na forum z jej numerem telefonu.</p>
+      <p class="aha">W 20 minut, bez żadnego włamania, obcy człowiek zna jej imię i nazwisko, szkołę, adres, numer telefonu i tygodniowy rozkład dnia.</p>
+    </div>
+    <figure class="photo photo--zoom" data-reveal><span class="ai-tag">Wygenerowane przez AI</span><a href="{{P}}assets/topics/digital-footprint-osint/corkboard.jpg" data-lightbox><picture><source srcset="{{P}}assets/topics/digital-footprint-osint/corkboard.webp" type="image/webp"><img src="{{P}}assets/topics/digital-footprint-osint/corkboard.jpg" alt="Ilustracja: detektywistyczna tablica korkowa z napisem Found in 20 minutes (znalezione w 20 minut); profil Laury połączony czerwoną nitką ze szkołą, kawiarnią w każdy piątek, numerem domu 14, tą samą nazwą użytkownika i numerem telefonu" loading="lazy" width="1200" height="800"></picture><span class="zoom-hint">Dotknij, aby powiększyć</span></a><figcaption>Znalezione w 20 minut</figcaption></figure>
+  </div>
+  <div class="tgallery tgallery--1">
+    <figure class="photo photo--zoom" data-reveal><a href="{{P}}assets/topics/digital-footprint-osint/spot-the-clues.jpg" data-lightbox><picture><source srcset="{{P}}assets/topics/digital-footprint-osint/spot-the-clues.webp" type="image/webp"><img src="{{P}}assets/topics/digital-footprint-osint/spot-the-clues.jpg" alt="Ilustracja: znajdź wskazówki. Publiczny post na Instagramie konta laura.oz z czterema zakreślonymi wskazówkami: numer domu 14 za jej plecami, logo szkoły na bluzie, podpis o tym samym miejscu w każdy piątek z oznaczeniem kawiarni oraz opis profilu z miastem i rocznikiem." loading="lazy" width="1400" height="1000"></picture><span class="zoom-hint">Dotknij, aby powiększyć</span></a><figcaption>Znajdź wskazówki: co obca osoba widzi w jednym poście</figcaption></figure>
+  </div>
+  <blockquote class="lesson" data-reveal><span>Sedno sprawy</span>Nic nie zostało skradzione. Laura sama udostępniła każdy element, post po poście. Tak właśnie działa OSINT.</blockquote>
+</section>
+
+<section class="tsec" id="what" data-nav="Wyjaśnienie" aria-labelledby="what-h">
+  <p class="eyebrow">03 · Wyjaśnienia</p>
+  <h2 class="h-m" id="what-h"><span class="line">Ślad cyfrowy</span><span class="line accent">i OSINT.</span></h2>
+  <div class="duo duo--defs">
+    <div class="card card--def" data-reveal>
+      <h3>{{ICON:search}} Czym jest ślad cyfrowy?</h3>
+      <p>To wszystkie dane, które zostawiasz, korzystając z internetu. Zostają w sieci latami – często nawet po usunięciu, bo inni mogą mieć zrzuty ekranu albo kopie.</p>
+    </div>
+    <div class="card card--def" data-reveal data-delay=".08">
+      <h3>{{ICON:users}} Czym jest OSINT?</h3>
+      <p>OSINT (ang. Open Source Intelligence, biały wywiad) to zbieranie publicznie dostępnych informacji i składanie ich w całość. Dziennikarze i policja używają go do prowadzenia śledztw. Oszuści, stalkerzy i osoby nękające innych korzystają z tych samych metod, żeby namierzać ludzi.</p>
+    </div>
+  </div>
+  <div class="ttable" data-reveal>
+    <table>
+      <thead><tr><th>Rodzaj</th><th>Co oznacza</th><th>Przykłady</th></tr></thead>
+      <tbody>
+        <tr><th>Aktywny ślad</th><td>Rzeczy, które udostępniasz celowo</td><td>Posty, zdjęcia, komentarze, opis profilu, recenzje</td></tr>
+        <tr><th>Pasywny ślad</th><td>Dane zbierane o tobie bez twojej wiedzy</td><td>Dane o lokalizacji, pliki cookie, śledzenie przez aplikacje, zdjęcia, na których oznaczają cię inni</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="duo">
+    <div class="card card--flags" data-reveal>
+      <h3>{{ICON:flag}} Dlaczego to ważne</h3>
+      <ul class="flaglist">
+        <li>Oszuści wykorzystują twoje dane, żeby fałszywe wiadomości wyglądały wiarygodnie (znają twoją szkołę, imię zwierzaka, znajomych).</li>
+        <li>Imiona zwierząt, daty urodzenia i rodzinne miasta to częste odpowiedzi na pytania bezpieczeństwa przy hasłach.</li>
+        <li>Pracodawcy i uczelnie sprawdzają kandydatów w sieci przed zatrudnieniem lub przyjęciem.</li>
+        <li>Twoja lokalizacja i rozkład dnia mogą zagrozić twojemu fizycznemu bezpieczeństwu.</li>
+      </ul>
+    </div>
+    <div class="card card--def card--clues" data-reveal data-delay=".08">
+      <h3>{{ICON:pin}} Wskazówki, które łatwo przeoczyć</h3>
+      <ul class="chips-list"><li>Logo szkoły lub firmy</li><li>Numery domów</li><li>Tablice rejestracyjne</li><li>Widok z okna</li><li>Oznaczenia lokalizacji</li><li>Ta sama nazwa użytkownika na każdej platformie</li><li>Pisanie „jestem na wakacjach” na bieżąco</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="tsec" id="checklist" data-nav="Lista kontrolna" aria-labelledby="checklist-h">
+  <p class="eyebrow">04 · Lista kontrolna</p>
+  <h2 class="h-m" id="checklist-h"><span class="line">Sprawdź i wyczyść</span><span class="line accent">swój ślad.</span></h2>
+  <div class="card card--check" data-reveal>
+    <ul class="checklist checklist--2" data-checklist>
+      <li class="check-h">Krok 1: wyszukaj siebie (10 minut)</li>
+      <li><label><input type="checkbox"><span>Wpisz w Google swoje imię i nazwisko w cudzysłowie i sprawdź też Grafikę</span></label></li>
+      <li><label><input type="checkbox"><span>Wyszukaj swoje nazwy użytkownika i numer telefonu</span></label></li>
+      <li><label><input type="checkbox"><span>Sprawdź na haveibeenpwned.com, czy twój e-mail był w wycieku danych</span></label></li>
+      <li class="check-h">Krok 2: zabezpiecz konta</li>
+      <li><label><input type="checkbox"><span>Ustaw Instagram i TikToka jako prywatne, jeśli nie potrzebujesz publicznego profilu</span></label></li>
+      <li><label><input type="checkbox"><span>Sprawdź, kto może cię oznaczać, oglądać twoje relacje i znaleźć cię po numerze telefonu</span></label></li>
+      <li><label><input type="checkbox"><span>Wyłącz lokalizację w aparacie i usuń oznaczenia lokalizacji z postów</span></label></li>
+      <li><label><input type="checkbox"><span>Usuń stare konta, z których już nie korzystasz</span></label></li>
+      <li class="check-h">Krok 3: pomyśl, zanim opublikujesz</li>
+      <li><label><input type="checkbox"><span>Sprawdź tło: loga, numery domów, tablice rejestracyjne, dokumenty, ekrany</span></label></li>
+      <li><label><input type="checkbox"><span>Zdjęcia z wakacji publikuj po powrocie do domu, nie w trakcie wyjazdu</span></label></li>
+      <li><label><input type="checkbox"><span>Nie zdradzaj swojego rozkładu dnia (to samo miejsce, ta sama godzina)</span></label></li>
+      <li><label><input type="checkbox"><span>Używaj różnych nazw użytkownika na różnych platformach</span></label></li>
+      <li><label><input type="checkbox"><span>Pytaj znajomych, zanim opublikujesz ich zdjęcia, i poproś, żeby robili tak samo</span></label></li>
+    </ul>
+    <p class="check-progress" aria-live="polite"><span data-done>0</span> z 12 gotowe</p>
+  </div>
+  <p class="remember" data-reveal><b>Złota zasada:</b> czego nie mówisz obcej osobie na ulicy, nie publikuj tego publicznie.</p>
+  <div class="tgallery tgallery--2">
+    <figure class="photo photo--zoom" data-reveal><a href="{{P}}assets/topics/digital-footprint-osint/lock-it-down.jpg" data-lightbox><picture><source srcset="{{P}}assets/topics/digital-footprint-osint/lock-it-down.webp" type="image/webp"><img src="{{P}}assets/topics/digital-footprint-osint/lock-it-down.jpg" alt="Ilustracja: zabezpiecz konto w 10 minut. Ekran prywatności w telefonie: konto prywatne włączone, status aktywności wyłączony, znajdowanie po numerze telefonu wyłączone, oznaczenia tylko od obserwowanych osób, lokalizacja nigdy, zapisywanie lokalizacji w zdjęciach wyłączone." loading="lazy" width="1400" height="1000"></picture><span class="zoom-hint">Dotknij, aby powiększyć</span></a><figcaption>Zabezpiecz konto: ustawienia, które ochroniłyby Laurę</figcaption></figure>
+    <figure class="photo" data-reveal><span class="ai-tag">Wygenerowane przez AI</span><picture><source srcset="{{P}}assets/topics/digital-footprint-osint/glowing-footprints.webp" type="image/webp"><img src="{{P}}assets/topics/digital-footprint-osint/glowing-footprints.jpg" alt="Ilustracja: osoba idąca nocą przez miasto zostawia świecące ślady stóp z ikonami mediów społecznościowych" loading="lazy" width="1200" height="800"></picture></figure>
+  </div>
+</section>
+
+<p class="team-credit">{{ICON:users}} Treści przygotowane przez uczestników podczas szkolenia w Poroninie, październik 2026.</p>
+
+<section class="tsec tsec--game" id="game" data-nav="Gra" data-pill="Zagraj: 2 kłamstwa, 1 fakt" aria-labelledby="game-h">
+  <div class="game" data-game data-find="fact">
+    <p class="eyebrow">Czas na grę</p>
+    <h2 class="h-m" id="game-h"><span class="line">Dwa kłamstwa,</span><span class="line">jeden fakt.</span></h2>
+    <p class="game-q">Przeczytaj każdy zestaw. Dwa zdania to kłamstwa, jedno to fakt. Znajdziesz fakt?</p>
+    <p class="game-meta" aria-live="polite"><span>Runda <b data-round-n>1</b> z 3</span><span>Wynik <b data-score>0</b></span></p>
+    <div class="round" data-answer="b">
+      <div class="game-cards">
+        <button type="button" class="gcard" data-choice="a"><span class="gcard-in"><span class="gcard-front"><span class="gl">A</span>Usunięty post na zawsze znika z internetu.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Usunięte posty mogą przetrwać na zrzutach ekranu i w archiwach.</small></span></span></button>
+        <button type="button" class="gcard gcard--good" data-choice="b"><span class="gcard-in"><span class="gcard-front"><span class="gl">B</span>Zdjęcie może zawierać ukryte dane GPS pokazujące, gdzie dokładnie zostało zrobione.</span><span class="gcard-back" aria-hidden="true"><b>Fakt</b><small>Zdjęcia mogą przechowywać dane o lokalizacji (EXIF).</small></span></span></button>
+        <button type="button" class="gcard" data-choice="c"><span class="gcard-in"><span class="gcard-front"><span class="gl">C</span>Prywatne konto na Instagramie oznacza, że nikt nigdy nie zobaczy twoich treści.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Obserwujący prywatne konto nadal mogą udostępniać twoje treści.</small></span></span></button>
+      </div>
+      <div class="round-explain" hidden><p><b>Faktem jest B.</b> Zdjęcia mogą przechowywać dane o lokalizacji (EXIF). Usunięte posty mogą przetrwać na zrzutach ekranu i w archiwach, a obserwujący prywatne konto nadal mogą udostępniać twoje treści.</p></div>
+    </div>
+    <div class="round" data-answer="c" hidden>
+      <div class="game-cards">
+        <button type="button" class="gcard" data-choice="a"><span class="gcard-in"><span class="gcard-front"><span class="gl">A</span>OSINT oznacza włamywanie się na czyjeś konta.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>OSINT korzysta wyłącznie z publicznych informacji, bez włamań.</small></span></span></button>
+        <button type="button" class="gcard" data-choice="b"><span class="gcard-in"><span class="gcard-front"><span class="gl">B</span>Tylko sławne osoby muszą się martwić o swój ślad cyfrowy.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Ślad cyfrowy ma każdy, nie tylko celebryci.</small></span></span></button>
+        <button type="button" class="gcard gcard--good" data-choice="c"><span class="gcard-in"><span class="gcard-front"><span class="gl">C</span>Używanie wszędzie tej samej nazwy użytkownika ułatwia połączenie wszystkich twoich kont.</span><span class="gcard-back" aria-hidden="true"><b>Fakt</b><small>Jedna nazwa użytkownika łączy wszystkie twoje profile.</small></span></span></button>
+      </div>
+      <div class="round-explain" hidden><p><b>Faktem jest C.</b> OSINT korzysta wyłącznie z publicznych informacji, bez włamań, a ślad cyfrowy ma każdy, nie tylko celebryci.</p></div>
+    </div>
+    <div class="round" data-answer="a" hidden>
+      <div class="game-cards">
+        <button type="button" class="gcard gcard--good" data-choice="a"><span class="gcard-in"><span class="gcard-front"><span class="gl">A</span>Imię zwierzaka w poście może pomóc komuś odgadnąć odpowiedź na pytanie bezpieczeństwa do hasła.</span><span class="gcard-back" aria-hidden="true"><b>Fakt</b><small>Imiona zwierząt to częste odpowiedzi na pytania bezpieczeństwa.</small></span></span></button>
+        <button type="button" class="gcard" data-choice="b"><span class="gcard-in"><span class="gcard-front"><span class="gl">B</span>Publikowanie zdjęć z wakacji w trakcie wyjazdu jest całkowicie bezpieczne.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Pokazuje, że twój dom stoi pusty.</small></span></span></button>
+        <button type="button" class="gcard" data-choice="c"><span class="gcard-in"><span class="gcard-front"><span class="gl">C</span>Uczelnie i pracodawcy nigdy nie sprawdzają kandydatów w sieci.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Wielu z nich sprawdza kandydatów w sieci.</small></span></span></button>
+      </div>
+      <div class="round-explain" hidden><p><b>Faktem jest A.</b> Publikowanie w trakcie wyjazdu pokazuje, że dom stoi pusty, a wielu pracodawców sprawdza kandydatów w sieci.</p></div>
+    </div>
+    <div class="game-result" aria-live="polite" hidden>
+      <p class="game-verdict"></p>
+      <div class="game-explain"></div>
+      <button type="button" class="btn btn--white" data-game-next>Następna runda ›</button>
+      <button type="button" class="btn btn--white" data-game-reset hidden>Zagraj jeszcze raz</button>
+    </div>
+  </div>
+</section>

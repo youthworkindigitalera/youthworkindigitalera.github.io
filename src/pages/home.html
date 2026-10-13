@@ -1,0 +1,122 @@
+<!-- HOME: redesigned. Sections: orbit hero · marquee · poster wall · "Would you tap?" · topics · made in Poronin -->
+
+<!-- 1. Hero: the 12 topics orbit the title in 3D -->
+<section class="orbit" id="top" data-hero aria-labelledby="hero-h">
+  <div class="orbit-bg" aria-hidden="true"><canvas class="matrix"></canvas><i class="ob1"></i><i class="ob2"></i><i class="ob3"></i><span class="orbit-grid"></span></div>
+  <div class="orbit-stage">
+    <div class="ring" aria-hidden="true"><div class="ring-in">{{RING}}</div></div>
+    <div class="orbit-copy">
+      <p class="orbit-chip"><span>Erasmus+ Training Course</span><span>Poronin, Poland</span><span>11–17 Oct 2026</span></p>
+      <h1 class="orbit-h" id="hero-h" data-split data-split-now><span class="line">Youth Work</span><span class="line grad-text">in Digital Era</span></h1>
+      <p class="orbit-lede">12 lessons on staying safe online.</p>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#posters" aria-label="Scroll down to the lessons"><span></span></a>
+</section>
+
+<!-- 2. Marquee of the topics -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Scam messages</span><span>Marketplace scams</span><span>Fake jobs</span><span>Deepfakes</span><span>Voice cloning</span><span>Passwords</span><span>2FA</span><span>Data breaches</span><span>Digital footprint</span><span>Photos &amp; location</span><span>Privacy settings</span><span>Emergency</span>
+    <span>Scam messages</span><span>Marketplace scams</span><span>Fake jobs</span><span>Deepfakes</span><span>Voice cloning</span><span>Passwords</span><span>2FA</span><span>Data breaches</span><span>Digital footprint</span><span>Photos &amp; location</span><span>Privacy settings</span><span>Emergency</span>
+  </div>
+</div>
+
+<!-- 3. Poster wall: on desktop the posters deal out of a stack as you scroll -->
+<section class="pwall" id="posters" aria-labelledby="wall-h">
+  <div class="wall-stage">
+    <div class="wall-hd">
+      <p class="eyebrow">The lessons</p>
+      <h2 class="h-l" id="wall-h"><span class="line">12 lessons.</span><span class="line grad-text">Staying safe online.</span></h2>
+      <p class="wall-count" aria-hidden="true"><b data-wall-count>12</b> / 12</p>
+    </div>
+    <div class="wall-grid">
+{{WALL}}
+    </div>
+    <p class="wall-hint">Each lesson was created by a team of participants. Tap a poster to start the lesson.</p>
+  </div>
+</section>
+
+<!-- 4. Would you tap? -->
+<section class="tap" id="tap" aria-labelledby="tap-h">
+  <div class="wrap tap-wrap">
+    <div class="tap-copy">
+      <p class="eyebrow">Quick game</p>
+      <h2 class="h-l" id="tap-h"><span class="line">Would you</span><span class="line grad-text">tap?</span></h2>
+      <p class="lede">Five real-looking messages, taken from the lessons. Scam or safe? Decide fast, like in real life.</p>
+      <p class="tap-score" aria-live="polite"><span data-tap-n>1</span> / 5 · Score <b data-tap-score>0</b></p>
+    </div>
+    <div class="tap-deck" data-tap>
+      <article class="tap-card" data-answer="scam" data-topic="topics/scam-messages/index.html" data-why="A surprise fee, a link and pressure to act now. Check your tracking on the courier’s official app instead.">
+        <p class="tap-app"><span style="background:#34c759">{{ICON:msg}}</span>Messages · Unknown number</p>
+        <p class="tap-msg">Your parcel is waiting for delivery. An unpaid fee of €1.99 is required. Pay now using the link below to avoid returning your parcel.</p>
+      </article>
+      <article class="tap-card" data-answer="scam" data-topic="topics/voice-cloning/index.html" data-why="Panic, urgency and a request for money. Hang up and call your family member back on the number you already have.">
+        <p class="tap-app"><span style="background:#8f7dff">{{ICON:wave}}</span>Incoming call · “Daniel”</p>
+        <p class="tap-msg">“Mom, please help! I’ve had an accident. I need money urgently!”</p>
+      </article>
+      <article class="tap-card" data-answer="scam" data-topic="topics/fake-jobs-and-study-offers/index.html" data-why="Hired without an interview, then asked to pay and send your passport. A real employer doesn’t do that.">
+        <p class="tap-app"><span style="background:#ff7a3d">{{ICON:job}}</span>Recruiter · 2 min ago</p>
+        <p class="tap-msg">Congratulations, you’re hired! €3,000 a month working from home. Please pay €150 for training materials and send a copy of your passport.</p>
+      </article>
+      <article class="tap-card" data-answer="scam" data-topic="topics/marketplace-scams/index.html" data-why="A buyer who pays upfront without seeing the item and sends “someone” to collect it is a classic marketplace scam.">
+        <p class="tap-app"><span style="background:#ff4fa3">{{ICON:tag}}</span>Marketplace · New buyer</p>
+        <p class="tap-msg">Hi! I’ll take it, no questions. I’ll pay the full price upfront right now. Send me your payment details and my cousin will pick it up tonight.</p>
+      </article>
+      <article class="tap-card" data-answer="safe" data-topic="topics/two-factor-authentication/index.html" data-why="You just tried to log in, so this code is expected. Use it yourself, and never share it with anyone who asks.">
+        <p class="tap-app"><span style="background:#7cff4f">{{ICON:shield}}</span>Verification · just now (you just tried to log in)</p>
+        <p class="tap-msg">Your login code is 482 913. Never share this code with anyone.</p>
+      </article>
+      <div class="tap-end" hidden>
+        <p class="tap-end-score"></p>
+        <p>Every one of these comes from a lesson on this site.</p>
+        <div class="tap-end-cta"><a class="btn magnetic" href="#posters">Start the 12 lessons</a><button type="button" class="btn btn--ghost" data-tap-reset>Play again</button></div>
+      </div>
+      <div class="tap-result" aria-live="polite" hidden>
+        <p class="tap-verdict"></p>
+        <p class="tap-why"></p>
+        <div class="tap-result-cta"><a class="tap-learn chev" href="#">Learn why</a><button type="button" class="btn" data-tap-next>Next message</button></div>
+      </div>
+      <div class="tap-btns">
+        <button type="button" class="tap-btn tap-btn--scam" data-choice="scam">{{ICON:flag}} Scam</button>
+        <button type="button" class="tap-btn tap-btn--safe" data-choice="safe">{{ICON:check}} Safe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. The 12 topics -->
+<section class="topics-idx" id="topics" aria-labelledby="topics-h">
+  <div class="wrap">
+    <div class="sec-hd"><p class="eyebrow">All 12 lessons</p>
+      <h2 class="h-l" id="topics-h" data-split><span class="line">Everything you need.</span><span class="line grad-text">Nothing you don’t.</span></h2>
+      <p class="lede">Twelve lessons in four groups, for youth workers, educators and young people.</p></div>
+    <div class="tcards">
+{{TOPICS}}
+    </div>
+  </div>
+</section>
+
+<!-- 6. Made in Poronin -->
+<section class="made" aria-labelledby="made-h">
+  <div class="wrap">
+    <div class="made-hd">
+      <p class="eyebrow">About the project</p>
+      <h2 class="h-l" id="made-h"><span class="line">Made in Poronin.</span><span class="line grad-text">11–17 October 2026.</span></h2>
+    </div>
+    <ul class="made-nums">
+      <li data-reveal><b data-count="31">31</b><span>participants</span></li>
+      <li data-reveal data-delay=".12"><b data-count="12">12</b><span>lessons</span></li>
+      <li data-reveal data-delay=".18"><b data-count="7">7</b><span>days of workshops</span></li>
+    </ul>
+    <div class="made-photos">
+      <figure class="mp mp--a" data-reveal><picture><source srcset="{{P}}assets/topics/marketplace-scams/you-got-scammed-photo.webp" type="image/webp"><img src="{{P}}assets/topics/marketplace-scams/you-got-scammed-photo.jpg" alt="A participant acts out the moment of realising she was scammed, during the training" loading="lazy" width="1600" height="900"></picture><figcaption>Acting out a scam</figcaption></figure>
+      <figure class="mp mp--b" data-reveal data-delay=".08"><picture><source srcset="{{P}}assets/topics/passwords/change-password-photo.webp" type="image/webp"><img src="{{P}}assets/topics/passwords/change-password-photo.jpg" alt="A participant changes a password on a phone in front of a laptop" loading="lazy" width="900" height="1200"></picture><figcaption>Changing passwords</figcaption></figure>
+      <figure class="mp mp--c" data-reveal data-delay=".12"><picture><source srcset="{{P}}assets/topics/photos-and-location/story-poronin.webp" type="image/webp"><img src="{{P}}assets/topics/photos-and-location/story-poronin.jpg" alt="An Instagram story from Poronin with a location tag" loading="lazy" width="308" height="670"></picture><figcaption>A location tag</figcaption></figure>
+      <figure class="mp mp--d" data-reveal data-delay=".16"><picture><source srcset="{{P}}assets/photos/tatras-sunset.webp" type="image/webp"><img src="{{P}}assets/photos/tatras-sunset.jpg" alt="The Tatra mountains at sunset above Poronin" loading="lazy" width="800" height="453"></picture><figcaption>Poronin, Tatra mountains</figcaption></figure>
+    </div>
+    <div class="made-cta"><a class="btn magnetic chev" href="{{L}}about/index.html">About the project</a></div>
+  </div>
+</section>
+
+<script src="{{P}}assets/js/home.js?v={{V}}" defer></script>

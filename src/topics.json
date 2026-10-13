@@ -1,0 +1,306 @@
+{
+  "groups": [
+    {
+      "id": "scams",
+      "name": "Scams",
+      "line": "Recognise the trick before it works.",
+      "pl": {
+        "name": "Oszustwa",
+        "line": "Rozpoznaj sztuczkę, zanim zadziała."
+      }
+    },
+    {
+      "id": "accounts",
+      "name": "Protect your accounts",
+      "line": "Locks, keys and alarms for your digital life.",
+      "pl": {
+        "name": "Chroń swoje konta",
+        "line": "Zamki, klucze i alarmy dla twojego cyfrowego życia."
+      }
+    },
+    {
+      "id": "privacy",
+      "name": "Your privacy",
+      "line": "Decide what the internet knows about you.",
+      "pl": {
+        "name": "Twoja prywatność",
+        "line": "Zdecyduj, co internet wie o tobie."
+      }
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "line": "When something has already gone wrong.",
+      "pl": {
+        "name": "Sytuacje awaryjne",
+        "line": "Gdy coś już poszło nie tak."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "n": 1,
+      "slug": "scam-messages",
+      "group": "scams",
+      "title": "Scam messages",
+      "short": "Scam texts",
+      "blurb": "Fake texts, DMs and emails that want you to tap first and think later.",
+      "icon": "msg",
+      "color": "#ff2e63",
+      "subtitle": "Fake bank SMS and courier scams",
+      "slogan": "Stop. Check. Think. Before you click!",
+      "poster": "assets/topics/scam-messages/poster",
+      "poster_alt": "Poster: “Thieves are not on the street. They are on your text messages.” A gloved hand reaches out of a phone screen holding a fake bank security SMS.",
+      "pl": {
+        "title": "Fałszywe wiadomości",
+        "short": "Fałszywe SMS-y",
+        "blurb": "Fałszywe SMS-y, wiadomości prywatne i e-maile, które mają sprawić, że najpierw klikniesz, a dopiero potem pomyślisz.",
+        "subtitle": "Fałszywe SMS-y od banku i firm kurierskich",
+        "slogan": "Stop. Sprawdź. Pomyśl. Zanim klikniesz!",
+        "poster_alt": "Plakat: „Złodzieje nie są na ulicy. Są w twoich wiadomościach.” Ręka w czarnej rękawiczce wychodzi z ekranu telefonu, trzymając fałszywego SMS-a od „banku”."
+      }
+    },
+    {
+      "n": 2,
+      "slug": "marketplace-scams",
+      "group": "scams",
+      "title": "Marketplace scams",
+      "short": "Marketplace",
+      "blurb": "Fake buyers, fake sellers and payment links that look real.",
+      "icon": "tag",
+      "color": "#ff4fa3",
+      "subtitle": "Fake buyers, fake sellers and payment tricks",
+      "slogan": "Stop. Check. Stay safe.",
+      "poster": "assets/topics/marketplace-scams/poster",
+      "poster_alt": "Poster: “Think before you click. Online scams are real. They look real too.” A hooded figure at a laptop with a skull on the screen; tips on phishing links, fake websites and scam payments; “Stop. Check. Stay safe.”",
+      "pl": {
+        "title": "Oszustwa na portalach ogłoszeniowych",
+        "short": "Ogłoszenia",
+        "blurb": "Fałszywi kupujący, fałszywi sprzedający i linki do płatności, które wyglądają prawdziwie.",
+        "subtitle": "Fałszywi kupujący, fałszywi sprzedający i sztuczki z płatnościami",
+        "slogan": "Stop. Sprawdź. Działaj bezpiecznie.",
+        "poster_alt": "Plakat: „Pomyśl, zanim klikniesz. Oszustwa w sieci są prawdziwe. I wyglądają prawdziwie.” Postać w kapturze przy laptopie z czaszką na ekranie; wskazówki o linkach phishingowych, fałszywych stronach i oszukańczych płatnościach."
+      }
+    },
+    {
+      "n": 3,
+      "slug": "fake-jobs-and-study-offers",
+      "group": "scams",
+      "title": "Fake jobs & study offers",
+      "short": "Fake offers",
+      "blurb": "Dream jobs and scholarships that ask for money or data first.",
+      "icon": "job",
+      "color": "#ff7a3d",
+      "subtitle": "Dream offers that ask you to pay first",
+      "slogan": "If it seems too good to be true, investigate.",
+      "poster": "assets/topics/fake-jobs-and-study-offers/poster",
+      "poster_alt": "Poster: “Danger. Don’t make hurry payments to get a job or study opportunity.” A barrier with a Click here sign.",
+      "pl": {
+        "title": "Fałszywe oferty pracy i studiów",
+        "short": "Fałszywe oferty",
+        "blurb": "Wymarzona praca i stypendia, za które najpierw trzeba zapłacić albo oddać swoje dane.",
+        "subtitle": "Oferty marzeń, za które najpierw musisz zapłacić",
+        "slogan": "Jeśli coś wydaje się zbyt piękne, by było prawdziwe – sprawdź to.",
+        "poster_alt": "Plakat: „Niebezpieczeństwo. Nie płać w pośpiechu za pracę ani za miejsce na studiach.” Szlaban z napisem „Kliknij tutaj”."
+      }
+    },
+    {
+      "n": 4,
+      "slug": "deepfakes-and-ads",
+      "group": "scams",
+      "title": "Deepfakes & ads",
+      "short": "Deepfakes",
+      "blurb": "Faces, voices and ads that never really happened.",
+      "icon": "face",
+      "color": "#ffb020",
+      "subtitle": "Fake faces, fake voices, fake deals",
+      "slogan": "Check the source before you believe or share.",
+      "poster": "assets/topics/deepfakes-and-ads/poster",
+      "poster_alt": "Poster: Deepfakes & ads, exploring the risks and impact: misinformation, scam advertising, political influence, loss of trust.",
+      "pl": {
+        "title": "Deepfake’i i reklamy",
+        "short": "Deepfake’i",
+        "blurb": "Twarze, głosy i reklamy, których nigdy naprawdę nie było.",
+        "subtitle": "Fałszywe twarze, fałszywe głosy, fałszywe okazje",
+        "slogan": "Sprawdź źródło, zanim uwierzysz albo udostępnisz.",
+        "poster_alt": "Plakat: Deepfake’i i reklamy – zagrożenia i skutki: dezinformacja, oszukańcze reklamy, wpływ polityczny, utrata zaufania."
+      }
+    },
+    {
+      "n": 5,
+      "slug": "voice-cloning",
+      "group": "scams",
+      "title": "Voice cloning & family emergency scams",
+      "short": "Voice clones",
+      "blurb": "“Mum, it’s me — I need help.” When a voice can be copied.",
+      "icon": "wave",
+      "color": "#e94cff",
+      "subtitle": "When a familiar voice becomes a scam",
+      "slogan": "Stop. Verify. Call back.",
+      "poster": "assets/topics/voice-cloning/poster",
+      "poster_alt": "Poster: Voice cloning & family emergency scams. What it is, warning signs, how to stay safe, what to do if it happens. Stop, verify, call back.",
+      "pl": {
+        "title": "Klonowanie głosu i oszustwa „na wnuczka”",
+        "short": "Klon głosu",
+        "blurb": "„Mamo, to ja – potrzebuję pomocy.” Kiedy ktoś może skopiować głos.",
+        "subtitle": "Gdy znajomy głos staje się oszustwem",
+        "slogan": "Stop. Zweryfikuj. Oddzwoń.",
+        "poster_alt": "Plakat: Klonowanie głosu i oszustwa na członka rodziny. Czym są, sygnały ostrzegawcze, jak się chronić, co zrobić, gdy to się stanie. Stop, zweryfikuj, oddzwoń."
+      }
+    },
+    {
+      "n": 6,
+      "slug": "passwords",
+      "group": "accounts",
+      "title": "Good passwords & password managers",
+      "short": "Passwords",
+      "blurb": "Long, unique, remembered for you.",
+      "icon": "key",
+      "color": "#00ff9c",
+      "subtitle": "Your password is your front door",
+      "slogan": "One account, one password.",
+      "poster": "assets/topics/passwords/poster",
+      "poster_alt": "Poster: Lock it down. How to make a password nobody can guess, but you can remember.",
+      "pl": {
+        "title": "Dobre hasła i menedżery haseł",
+        "short": "Hasła",
+        "blurb": "Długie, unikalne i zapamiętane za ciebie.",
+        "subtitle": "Twoje hasło to drzwi do twojego domu",
+        "slogan": "Jedno konto, jedno hasło.",
+        "poster_alt": "Plakat: Zamknij to na klucz. Jak stworzyć hasło, którego nikt nie zgadnie, a ty łatwo zapamiętasz."
+      }
+    },
+    {
+      "n": 7,
+      "slug": "two-factor-authentication",
+      "group": "accounts",
+      "title": "Two-factor authentication",
+      "short": "2FA",
+      "blurb": "A second lock on every important account.",
+      "icon": "shield",
+      "color": "#7cff4f",
+      "subtitle": "A second layer of defense for your accounts",
+      "poster": "assets/topics/two-factor-authentication/poster",
+      "slogan": "Lock it twice.",
+      "poster_alt": "Poster: Two locks beat one. Password plus your phone equals only you get in. Turn it on for your email first, use an authenticator app, save your backup codes, never share your code. Got a code you didn’t ask for? Change your password now. Lock it twice.",
+      "pl": {
+        "title": "Uwierzytelnianie dwuskładnikowe",
+        "short": "2FA",
+        "blurb": "Drugi zamek na każdym ważnym koncie.",
+        "subtitle": "Druga warstwa ochrony twoich kont",
+        "slogan": "Zamknij podwójnie.",
+        "poster_alt": "Plakat: Dwa zamki są lepsze niż jeden. Hasło plus twój telefon oznacza, że wejdziesz tylko ty. Włącz najpierw na poczcie, używaj aplikacji uwierzytelniającej, zachowaj kody zapasowe, nigdy nie udostępniaj kodu."
+      }
+    },
+    {
+      "n": 8,
+      "slug": "data-breaches",
+      "group": "accounts",
+      "title": "Data breaches",
+      "short": "Data breaches",
+      "blurb": "Your data leaked somewhere. What now?",
+      "icon": "lock",
+      "color": "#00ffd5",
+      "subtitle": "What they are and how to stay safe",
+      "slogan": "Your data. Your identity. Your future.",
+      "poster": "assets/topics/data-breaches/poster",
+      "poster_alt": "Poster: Data breach. Your data can be exposed. Are you ready? Five facts (hackers gain unauthorized access, personal information exposed, data can be sold, identity theft, it can happen to anyone) and five tips: strong unique passwords, 2FA, keep devices updated, check if your data leaked, be careful what you share. Stop. Protect. Stay safe.",
+      "pl": {
+        "title": "Wycieki danych",
+        "short": "Wycieki danych",
+        "blurb": "Twoje dane gdzieś wyciekły. Co teraz?",
+        "subtitle": "Czym są i jak się chronić",
+        "slogan": "Twoje dane. Twoja tożsamość. Twoja przyszłość.",
+        "poster_alt": "Plakat: Wyciek danych. Twoje dane mogą zostać ujawnione. Czy wiesz, co robić? Pięć faktów i pięć wskazówek: silne, unikalne hasła, 2FA, aktualizacje, sprawdzenie wycieku, ostrożność w sieci. Stop. Chroń. Działaj bezpiecznie."
+      }
+    },
+    {
+      "n": 9,
+      "slug": "digital-footprint-osint",
+      "group": "privacy",
+      "title": "Digital footprint & OSINT",
+      "short": "Footprint",
+      "blurb": "What anyone can find out about you — and how.",
+      "icon": "search",
+      "color": "#00e5ff",
+      "subtitle": "You leave traces everywhere",
+      "slogan": "Think before you post. The internet never forgets.",
+      "poster": "assets/topics/digital-footprint-osint/poster",
+      "poster_alt": "Poster: Every post leaves a footprint. A stranger can learn your school, address and routine in 20 minutes, using only what you shared. Google yourself, go private, turn off location, check the background.",
+      "pl": {
+        "title": "Ślad cyfrowy i OSINT",
+        "short": "Ślad cyfrowy",
+        "blurb": "Co każdy może się o tobie dowiedzieć – i jak.",
+        "subtitle": "Zostawiasz ślady wszędzie",
+        "slogan": "Pomyśl, zanim opublikujesz. Internet nigdy nie zapomina.",
+        "poster_alt": "Plakat: Każdy post zostawia ślad. Obca osoba może w 20 minut poznać twoją szkołę, adres i plan dnia – wyłącznie na podstawie tego, co już udostępniasz. Wyszukaj siebie, ustaw konto prywatne, wyłącz lokalizację, sprawdzaj tło zdjęć."
+      }
+    },
+    {
+      "n": 10,
+      "slug": "photos-and-location",
+      "group": "privacy",
+      "title": "Photos & location",
+      "short": "Photo & place",
+      "blurb": "What a single photo can reveal about where you are.",
+      "icon": "pin",
+      "color": "#3da5ff",
+      "subtitle": "Living out loud vs. keeping it safe",
+      "slogan": "Post the vibe later, not your live location.",
+      "poster": "assets/topics/photos-and-location/poster",
+      "poster_alt": "Poster: Explore, discover, share. Find your next experience around every corner. A big location pin surrounded by holiday photos of cafés, beaches, trails and shops, each tagged with a place.",
+      "pl": {
+        "title": "Zdjęcia i lokalizacja",
+        "short": "Zdjęcia i miejsca",
+        "blurb": "Co jedno zdjęcie może zdradzić o tym, gdzie jesteś.",
+        "subtitle": "Życie na pokaz a bezpieczeństwo",
+        "slogan": "Wrzuć klimat później, nie swoją aktualną lokalizację.",
+        "poster_alt": "Plakat: Odkrywaj, poznawaj, udostępniaj. Duża pinezka lokalizacji otoczona zdjęciami z wakacji: kawiarnie, plaże, szlaki i sklepy, każde oznaczone miejscem."
+      }
+    },
+    {
+      "n": 11,
+      "slug": "privacy-settings",
+      "group": "privacy",
+      "title": "Privacy settings",
+      "short": "Privacy",
+      "blurb": "Instagram, TikTok, WhatsApp and more — step by step.",
+      "icon": "toggle",
+      "color": "#8f7dff",
+      "subtitle": "Master guide across platforms & devices",
+      "slogan": "Check your settings today.",
+      "poster": "assets/topics/privacy-settings/poster",
+      "poster_alt": "Poster: Privacy settings, lock down your digital life. Secure your socials, protect your mobile device, and run a privacy audit checklist.",
+      "pl": {
+        "title": "Ustawienia prywatności",
+        "short": "Prywatność",
+        "blurb": "Instagram, TikTok, WhatsApp i inne – krok po kroku.",
+        "subtitle": "Przewodnik po platformach i urządzeniach",
+        "slogan": "Sprawdź swoje ustawienia już dziś.",
+        "poster_alt": "Plakat: Ustawienia prywatności – zabezpiecz swoje cyfrowe życie. Zabezpiecz media społecznościowe, chroń telefon i zrób przegląd prywatności."
+      }
+    },
+    {
+      "n": 12,
+      "slug": "emergency",
+      "group": "emergency",
+      "title": "What to do in an emergency",
+      "short": "Emergency",
+      "blurb": "Hacked, scammed or threatened? First steps, right now.",
+      "icon": "buoy",
+      "color": "#ff3b3b",
+      "subtitle": "If you’ve been hacked or scammed",
+      "slogan": "Act fast. Stay calm. Stay safe online.",
+      "poster": "assets/topics/emergency/poster",
+      "poster_alt": "Poster: What to do in case of online emergency. What to do if you’re hacked? What to do if you’re scammed? Stay safe online!",
+      "pl": {
+        "title": "Co zrobić w sytuacji awaryjnej",
+        "short": "Pomoc",
+        "blurb": "Włamanie, oszustwo albo groźby? Pierwsze kroki – od razu.",
+        "subtitle": "Jeśli ktoś włamał się na twoje konto albo cię oszukał",
+        "slogan": "Działaj szybko. Zachowaj spokój. Bezpiecznie w sieci.",
+        "poster_alt": "Plakat: Co zrobić w sytuacji awaryjnej w sieci. Co zrobić, gdy ktoś włamie się na konto? Co zrobić, gdy dojdzie do oszustwa? Bezpiecznie w sieci!"
+      }
+    }
+  ]
+}

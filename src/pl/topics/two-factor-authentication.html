@@ -1,0 +1,141 @@
+<!-- Uwierzytelnianie dwuskładnikowe
+     Polska wersja lekcji – wygenerowana z materiałów zespołu. Odtąd edytuj ten plik bezpośrednio. -->
+
+<section class="tsec" id="what" data-nav="Czym jest 2FA?" aria-labelledby="what-h">
+  <p class="eyebrow">01 · Czym jest 2FA?</p>
+  <h2 class="h-m" id="what-h"><span class="line">Drugi zamek</span><span class="line accent">na twoim koncie.</span></h2>
+  <div class="split">
+    <div>
+  <div class="prose">
+    <p class="big-p">Uwierzytelnianie dwuskładnikowe (2FA) to dodatkowa warstwa zabezpieczeń, która sprawdza, czy osoba logująca się do konta jest tą, za którą się podaje.</p>
+    <p>Najpierw wpisujesz nazwę użytkownika i hasło. Potem, zamiast od razu wejść na konto, musisz podać jeszcze jedną informację (np. kod wysłany na telefon albo odcisk palca).</p>
+  </div>
+    </div>
+    <figure class="photo" data-reveal><picture><source srcset="{{P}}assets/topics/two-factor-authentication/password-verify.webp" type="image/webp"><img src="{{P}}assets/topics/two-factor-authentication/password-verify.jpg" alt="Ilustracja: krok pierwszy – hasło na ekranie logowania w laptopie; krok drugi – weryfikacja w telefonie" loading="lazy" width="694" height="442"></picture></figure>
+  </div>
+</section>
+
+<section class="tsec" id="why" data-nav="Dlaczego to ważne" aria-labelledby="why-h">
+  <p class="eyebrow">02 · Dlaczego to ważne</p>
+  <h2 class="h-m" id="why-h"><span class="line">Nawet jeśli ukradną</span><span class="line accent">twoje hasło.</span></h2>
+  <div class="split split--rev">
+    <figure class="photo" data-reveal><picture><source srcset="{{P}}assets/topics/two-factor-authentication/laptop-phone-code.webp" type="image/webp"><img src="{{P}}assets/topics/two-factor-authentication/laptop-phone-code.jpg" alt="Osoba przy laptopie trzyma telefon z kodem weryfikacyjnym" loading="lazy" width="1024" height="682"></picture></figure>
+    <div class="prose">
+      <p class="big-p">Uwierzytelnianie dwuskładnikowe jest bardzo ważne, bo dodaje drugą linię obrony: samo hasło praktycznie nie wystarczy hakerom, żeby dostać się na twoje konta.</p>
+      <p>Nawet jeśli hakerzy ukradną hasło, nie wejdą na konto bez twojego urządzenia. To proste ustawienie chroni twoją tożsamość, pieniądze i dane osobowe.</p>
+    </div>
+  </div>
+  <ol class="flow" aria-label="Jak działa 2FA">
+    <li data-reveal><span>1</span><b>Hasło</b><p>Wpisujesz nazwę użytkownika i hasło.</p></li>
+    <li data-reveal data-delay=".08"><span>2</span><b>Drugi składnik</b><p>Na telefon przychodzi kod albo używasz odcisku palca.</p></li>
+    <li data-reveal data-delay=".16"><span>3</span><b>Dostęp</b><p>Wejść może tylko osoba z twoim urządzeniem – czyli ty.</p></li>
+  </ol>
+  <div class="tgallery tgallery--1">
+    <figure class="photo" data-reveal><picture><source srcset="{{P}}assets/topics/two-factor-authentication/enter-code.webp" type="image/webp"><img src="{{P}}assets/topics/two-factor-authentication/enter-code.jpg" alt="Telefon z kodem obok laptopa, który prosi o wpisanie kodu weryfikacyjnego" loading="lazy" width="626" height="470"></picture></figure>
+  </div>
+</section>
+
+<section class="tsec" id="story" data-nav="Historia Mii" aria-labelledby="story-h">
+  <p class="eyebrow">03 · Historia</p>
+  <h2 class="h-m" id="story-h"><span class="line">Kod, o który</span><span class="line accent">nie prosiła.</span></h2>
+  <p class="note-fiction">{{ICON:info}} Fikcyjna historia oparta na częstej, prawdziwej sytuacji.</p>
+  <div class="split">
+    <div class="prose">
+      <p class="big-p">Mia, 17 lat, miała to samo hasło do poczty i do starego konta w grze. Pewnej nocy telefon zawibrował: „Twój kod logowania: 615 204”. Ale Mia wcale się nie logowała.</p>
+      <p>Kilka minut później przyszła wiadomość od „Pomocy technicznej”: „Wysłaliśmy ci kod przez pomyłkę. Odeślij go nam, żebyśmy mogli anulować prośbę”.</p>
+      <p>Mia przypomniała sobie warsztaty: <strong>nikt prawdziwy nigdy nie prosi o twój kod</strong>. Nie odpisała. Zamiast tego sama otworzyła aplikację pocztową, zmieniła hasło i wylogowała wszystkie inne urządzenia.</p>
+      <p class="good-news">Ktoś naprawdę znał jej stare hasło. Ale dzięki włączonemu uwierzytelnianiu dwuskładnikowemu nigdy nie dostał się na konto.</p>
+    </div>
+    <figure class="photo" data-reveal><picture><source srcset="{{P}}assets/topics/two-factor-authentication/phone-lock.webp" type="image/webp"><img src="{{P}}assets/topics/two-factor-authentication/phone-lock.jpg" alt="Dłonie trzymające telefon ze świecącą kłódką i ukrytym hasłem" loading="lazy" width="588" height="330"></picture></figure>
+  </div>
+  <blockquote class="lesson" data-reveal><span>Lekcja</span>Kod, o który nie prosisz, to sygnał alarmowy: ktoś zna twoje hasło. Nie podawaj kodu. Zmień hasło.</blockquote>
+</section>
+
+<section class="tsec" id="types" data-nav="Rodzaje 2FA" aria-labelledby="types-h">
+  <p class="eyebrow">04 · Twoje opcje</p>
+  <h2 class="h-m" id="types-h"><span class="line">Jaki drugi zamek</span><span class="line accent">wybrać?</span></h2>
+  <ul class="tricks tricks--4">
+    <li data-reveal data-tilt="6"><span class="trick-n">Dobre</span><b>Kod SMS</b><p>Kod przychodzi SMS-em. Dużo lepsze niż nic, ale numer telefonu można przejąć metodą „SIM swapping”.</p></li>
+    <li data-reveal data-delay=".05" data-tilt="6"><span class="trick-n">Lepsze</span><b>Aplikacja uwierzytelniająca</b><p>Aplikacja, np. Google Authenticator albo Microsoft Authenticator, co 30 sekund tworzy nowy kod bezpośrednio w telefonie.</p></li>
+    <li data-reveal data-delay=".1" data-tilt="6"><span class="trick-n">Wygodne</span><b>Odcisk palca lub twarz</b><p>Telefon potwierdza, że to naprawdę ty. Wiele aplikacji i kluczy dostępu używa tego jako drugiego kroku.</p></li>
+    <li data-reveal data-delay=".15" data-tilt="6"><span class="trick-n">Najmocniejsze</span><b>Klucz bezpieczeństwa</b><p>Mały klucz USB lub NFC, który podłączasz albo przykładasz. Fałszywe strony nie są w stanie go oszukać.</p></li>
+  </ul>
+</section>
+
+<section class="tsec" id="setup" data-nav="Włącz to" aria-labelledby="setup-h">
+  <p class="eyebrow">05 · Jak włączyć 2FA</p>
+  <h2 class="h-m" id="setup-h"><span class="line">Pięć minut</span><span class="line accent">na jedno konto.</span></h2>
+  <ol class="steps steps--6">
+    <li data-reveal><b>Otwórz ustawienia bezpieczeństwa</b><p>W aplikacji lub na stronie szukaj: Ustawienia › Bezpieczeństwo (albo „Hasło i bezpieczeństwo”).</p></li>
+    <li data-reveal><b>Znajdź weryfikację dwuetapową</b><p>Może się nazywać uwierzytelnianie dwuskładnikowe, weryfikacja dwuetapowa albo 2FA.</p></li>
+    <li data-reveal><b>Wybierz aplikację uwierzytelniającą</b><p>Jeśli możesz, wybierz aplikację zamiast SMS-a. Zeskanuj wyświetlony kod QR.</p></li>
+    <li data-reveal><b>Wpisz kod</b><p>Wpisz 6-cyfrowy kod z aplikacji, żeby potwierdzić, że wszystko działa.</p></li>
+    <li data-reveal><b>Zachowaj kody zapasowe</b><p>Zapisz je albo przechowuj w menedżerze haseł. Przydadzą się, jeśli zgubisz telefon.</p></li>
+    <li data-reveal><b>Powtórz dla każdego ważnego konta</b><p>Zacznij od poczty, potem bank, a na końcu media społecznościowe i komunikatory.</p></li>
+  </ol>
+  <div class="ttable" data-reveal>
+    <table>
+      <thead><tr><th>Aplikacja</th><th>Gdzie to znaleźć</th></tr></thead>
+      <tbody>
+        <tr><th>Instagram</th><td>Ustawienia › Centrum kont › Hasło i zabezpieczenia › Uwierzytelnianie dwuskładnikowe</td></tr>
+        <tr><th>WhatsApp</th><td>Ustawienia › Konto › Weryfikacja dwuetapowa</td></tr>
+        <tr><th>TikTok</th><td>Ustawienia i prywatność › Bezpieczeństwo › Weryfikacja dwuetapowa</td></tr>
+        <tr><th>Google / Gmail</th><td>Konto Google › Bezpieczeństwo › Weryfikacja dwuetapowa</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note-fiction">Nazwy menu mogą się zmieniać po aktualizacjach aplikacji. Jeśli nie możesz znaleźć opcji, wyszukaj „weryfikacja dwuetapowa” w pomocy aplikacji.</p>
+</section>
+
+<section class="tsec" id="checklist" data-nav="Lista kontrolna" aria-labelledby="checklist-h">
+  <p class="eyebrow">06 · Lista kontrolna</p>
+  <h2 class="h-m" id="checklist-h"><span class="line">Zamknij</span><span class="line accent">podwójnie.</span></h2>
+  <div class="card card--check" data-reveal>
+    <ul class="checklist checklist--2" data-checklist>
+      <li><label><input type="checkbox"><span>2FA włączone dla poczty e-mail</span></label></li>
+      <li><label><input type="checkbox"><span>2FA włączone dla bankowości i aplikacji płatniczych</span></label></li>
+      <li><label><input type="checkbox"><span>2FA włączone dla Instagrama, TikToka i WhatsAppa</span></label></li>
+      <li><label><input type="checkbox"><span>Tam, gdzie się da, korzystam z aplikacji uwierzytelniającej</span></label></li>
+      <li><label><input type="checkbox"><span>Kody zapasowe są w bezpiecznym miejscu</span></label></li>
+      <li><label><input type="checkbox"><span>Nigdy nie podaję kodu logowania – nawet „pomocy technicznej”</span></label></li>
+      <li><label><input type="checkbox"><span>Gdy dostaję kod, o który nie proszę, zmieniam hasło</span></label></li>
+    </ul>
+    <p class="check-progress" aria-live="polite"><span data-done>0</span> z 7 gotowe</p>
+  </div>
+</section>
+
+<section class="tsec" id="video" data-nav="Film" aria-labelledby="video-h">
+  <p class="eyebrow">Obejrzyj</p>
+  <h2 class="h-m" id="video-h"><span class="line">2FA w</span><span class="line accent">3 minuty.</span></h2>
+    <div class="yt" data-yt="sPxAHV3P4IU" data-reveal>
+      <a href="https://www.youtube.com/watch?v=sPxAHV3P4IU" target="_blank" rel="noopener">
+        <img src="https://i.ytimg.com/vi/sPxAHV3P4IU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+        <span class="yt-play" aria-hidden="true"></span>
+        <span class="yt-title"><span translate="no">Two Factor Authentication Explained in 3 Minutes</span> · Common Craft Explainer Videos (film po angielsku)</span>
+        <span class="sr-only">Odtwórz film (otwiera YouTube)</span>
+      </a>
+    </div>
+</section>
+
+<p class="team-credit">{{ICON:users}} Treści przygotowane przez uczestników podczas szkolenia w Poroninie, październik 2026.</p>
+
+<section class="tsec tsec--game" id="game" data-nav="Gra" data-pill="Zagraj: 2 kłamstwa, 1 fakt" aria-labelledby="game-h">
+  <div class="game" data-game data-find="fact">
+    <p class="eyebrow">Czas na grę</p>
+    <h2 class="h-m" id="game-h"><span class="line">Dwa kłamstwa,</span><span class="line">jeden fakt.</span></h2>
+    <p class="game-q">Które zdanie jest prawdziwe? Dotknij karty.</p>
+    <div class="round" data-answer="c">
+      <div class="game-cards">
+        <button type="button" class="gcard" data-choice="a"><span class="gcard-in"><span class="gcard-front"><span class="gl">A</span>Przez 2FA każde logowanie trwa 30 minut.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Przez 2FA każde logowanie trwa 30 minut.</small></span></span></button>
+        <button type="button" class="gcard" data-choice="b"><span class="gcard-in"><span class="gcard-front"><span class="gl">B</span>Po włączeniu 2FA nie trzeba już nigdy używać hasła.</span><span class="gcard-back" aria-hidden="true"><b>Kłamstwo</b><small>Po włączeniu 2FA nie trzeba już nigdy używać hasła.</small></span></span></button>
+        <button type="button" class="gcard gcard--good" data-choice="c"><span class="gcard-in"><span class="gcard-front"><span class="gl">C</span>2FA chroni cię, bo hakerzy nie mogą ukraść twojego fizycznego telefonu, żeby zdobyć tajny kod.</span><span class="gcard-back" aria-hidden="true"><b>Fakt</b><small>2FA chroni cię, bo hakerzy nie mogą ukraść twojego fizycznego telefonu, żeby zdobyć tajny kod.</small></span></span></button>
+      </div>
+      <div class="round-explain" hidden><p><b>Poprawna odpowiedź: zdanie 3 (C).</b> 2FA chroni cię, bo hakerzy nie mogą ukraść twojego fizycznego telefonu, żeby zdobyć tajny kod.</p></div>
+    </div>
+    <div class="game-result" aria-live="polite" hidden>
+      <p class="game-verdict"></p>
+      <div class="game-explain"></div>
+      <button type="button" class="btn btn--white" data-game-reset>Zagraj jeszcze raz</button>
+    </div>
+  </div>
+</section>
